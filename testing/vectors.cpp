@@ -34,5 +34,5 @@ int main() {
         cout << newStudent.getName() << " | " << newStudent.getId() << "\n";
         newStudent.addGrade(3);
         newStudent.addGrade(1);
-        cout << newStudent.grades.size();
+        cout << newStudent.grades.size(); /* newStudent.grades[index] */
 } 
