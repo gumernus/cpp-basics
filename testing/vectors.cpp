@@ -21,8 +21,14 @@ class Student {
 
                 string getName(){return name;}
                 string getId(){return id;}
-                
 
+
+                
+                void displayGrades(){
+                        for(int i = 0; i < grades.size(); i++){
+                                cout << grades[i] << "\n";
+                        }
+                }
                 void addGrade(int grade) {
                         grades.push_back(grade);
                 }
@@ -34,5 +40,6 @@ int main() {
         cout << newStudent.getName() << " | " << newStudent.getId() << "\n";
         newStudent.addGrade(3);
         newStudent.addGrade(1);
-        cout << newStudent.grades.size(); /* newStudent.grades[index] */
+        newStudent.addGrade(6);
+        newStudent.displayGrades();
 } 
