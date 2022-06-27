@@ -44,4 +44,5 @@ int main() {
         newStudent.displayGrades();
 } 
 
-// std::vector<std::array<int, 2>> vp = { {{1,1}}, {{0,0}} }; ARRAYS INSIDE ARRAY (#include <array>)
+// std::vector<std::array<int, 2>> vp = { {{1,1}}, {{0,0}} }; ARRAYS INSIDE ARRAY, MAXIMAL LENGHT OF SUB_ARRAY IS 2(#include <array>)
+// std::vector<std::vector<int>> screen = { {{9, 13}}, {{32, 1, 23}} }; VECTOR ARRAYS 
