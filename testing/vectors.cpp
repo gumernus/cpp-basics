@@ -44,4 +44,4 @@ int main() {
         newStudent.displayGrades();
 } 
 
-// std::vector<std::array<int, 2>> vp = { {{1,1}}, {{0,0}} }; ARRAYS INSIDE ARRAY
+// std::vector<std::array<int, 2>> vp = { {{1,1}}, {{0,0}} }; ARRAYS INSIDE ARRAY (POTŘEBA #include <array>)
